@@ -5,14 +5,14 @@ import sample.cycleclub.club.service.IClubService;
 /**
  * @author LSH
  * @version 1.0
- * @created 09-8-2015 ¿ÀÀü 11:12:57
+ * @created 09-8-2015 ï¿½ï¿½ï¿½ï¿½ 11:12:57
  */
 public class ClubController {
 
 	public IClubService m_IClubService;
 
 	public ClubController(){
-
+		System.out.println("Test");
 	}
 
 	public void finalize() throws Throwable {
